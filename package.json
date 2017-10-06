@@ -5,5 +5,15 @@
   "repository": "tqDuy1303@bitbucket.org:tqDuy1303/wehigh.git",
   "author": "DuyTran <duytq@dgroup.co>",
   "license": "MIT",
-  "script": "node ."
+  "scripts": {
+    "start": "babel-node src",
+    "test": "eslint src"
+  },
+  "browserslist": ["> 1%"],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.8.0",
+    "eslint-plugin-compat": "^2.0.0"
+  }
 }
