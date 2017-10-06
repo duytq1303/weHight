@@ -1,0 +1,9 @@
+{
+  "name": "wehigh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "tqDuy1303@bitbucket.org:tqDuy1303/wehigh.git",
+  "author": "DuyTran <duytq@dgroup.co>",
+  "license": "MIT",
+  "script": "node ."
+}
