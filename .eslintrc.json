@@ -2,7 +2,7 @@
   "extends": ["airbnb", "plugin:flowtype/recommended"],
   "plugins": ["flowtype", "compat"],
   "rules": {
-    "semi": [2, "never"],
+    "semi": [2, "always", {"omitLastInOneLineBlock": true}],
     "no-unexpected-multiline": 2,
     "compat/compat": 2
   },
