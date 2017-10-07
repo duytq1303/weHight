@@ -2,8 +2,8 @@
 
 import path from 'path';
 import webpack from 'webpack';
-import {WDS_PORT} from './src/shared/config';
-import {isProd} from './src/shared/util';
+import { WDS_PORT } from './src/shared/config';
+import { isProd } from './src/shared/util';
 
 export default {
   entry: ['react-hot-loader/patch', './src/client'],
@@ -14,7 +14,7 @@ export default {
   },
   module: {
     rules: [
-      {test: /\.(js|jsx)$/, use: 'babel-loader', exclude: /node_modules/},
+      { test: /\.(js|jsx)$/, use: 'babel-loader', exclude: /node_modules/ },
     ],
   },
   devtool: isProd ? false : 'source-map',
